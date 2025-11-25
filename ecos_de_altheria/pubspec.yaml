@@ -1,0 +1,40 @@
+name: ecos_de_altheria
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.6.2 <4.0.0' # Ajustado para o formato padrão do Dart
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.9.2
+  # audioplayers: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Chefão.mp3
+    - assets/eco.png
+    - assets/Ecomapa.png
+    - assets/gameoverfundobranco.png
+    - assets/golem.png
+    - assets/Golemmapa.png
+    - assets/Intro.mp4
+    - assets/jogo_todo.mp3
+    - assets/jogo_todo.ogg
+    - assets/Kael.png
+    - assets/Kaelmapa.png
+    - assets/Loiradlc.png
+    - assets/serpente.png
+    - assets/Serpentemapa.png
+    - assets/sombra.png
+    - assets/Sombramapa.png
+    - assets/gameovermechendo.mp4
+    - assets/Vitoria.mp4
